@@ -151,7 +151,7 @@ As part of the initialization we've set up for this repository, we've created 3 
 
 So to get going with the first set of changes, what you will want to do is set up a Pull Request for the `release/v0.1.0` branch against `main`. Here's a link for you to do exactly that:
 
-[https://github.com/cosmonic/concordance-gitops/compare/release/v0.1.0?expand=1](https://github.com/cosmonic/concordance-gitops/compare/release/v0.1.0?expand=1)
+[https://github.com/yordis/cosmonic-bank-account/compare/release/v0.1.0?expand=1](https://github.com/yordis/cosmonic-bank-account/compare/release/v0.1.0?expand=1)
 
 Once you merge this Pull Request, Argo will detect that there are changes and push up the changes in the `wadm.yaml` file. Afterwards, you will be able to reload the [Wormhole from before](#wormhole-section) to see the changes. You’ll see two new events, `CreateAccount` and `AccountCreated`, corresponding to the request to create an account and the event indicating that the account creation was successful.
 
@@ -163,7 +163,7 @@ To demonstrate further iterations, we also have a `release/v0.2.0` branch that a
 
 In order to deploy the changes from `release/v0.2.0`, you can create a Pull Request from the following link:
 
-[https://github.com/cosmonic/concordance-gitops/compare/release/v0.2.0?expand=1](https://github.com/cosmonic/concordance-gitops/compare/release/v0.2.0?expand=1)
+[https://github.com/yordis/cosmonic-bank-account/compare/release/v0.2.0?expand=1](https://github.com/yordis/cosmonic-bank-account/compare/release/v0.2.0?expand=1)
 
 Once merged, Argo will once again sync the changes in `wadm.yaml` by applying them against the cluster, which in turn will prompt wadm to deploy the changes into the cluster.
 
@@ -179,7 +179,7 @@ Release v0.3.0 introduces many new events so that we can wire money with a robus
 
 In order to get these changes deployed, create a Pull Request for the `release/v0.3.0` branch with the following link:
 
-[https://github.com/cosmonic/concordance-gitops/compare/release/v0.3.0?expand=1](https://github.com/cosmonic/concordance-gitops/compare/release/v0.3.0?expand=1)
+[https://github.com/yordis/cosmonic-bank-account/compare/release/v0.3.0?expand=1](https://github.com/yordis/cosmonic-bank-account/compare/release/v0.3.0?expand=1)
 
 Once merged, Argo will take care of applying the changes to the cluster and wadm will roll out a new version of the application in response.
 

@@ -5,7 +5,7 @@ metadata:
 spec:
   source:
     path: .
-    repoURL: https://github.com/cosmonic/concordance-gitops
+    repoURL: https://github.com/yordis/cosmonic-bank-account
     targetRevision: HEAD
     directory:
       recurse: false
